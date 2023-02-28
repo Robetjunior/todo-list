@@ -121,7 +121,8 @@ background: blue;
     flex-direction: row;
     padding: 0px;
     margin: 4rem 0 0;
-    width: 110%;
+    margin-left: 1.5rem;
+    width: 105%;
 }
 
 .taskDivAdd {
@@ -165,7 +166,7 @@ background: blue;
     padding: 2px 8px;
     gap: 10px;
     flex-wrap: 'nowrap';
-    width: 50px;
+    width: 30px;
     height: 19px;
 
     background: #333333;
@@ -176,6 +177,24 @@ background: blue;
     margin-right: 2rem;
 }
 
+.counterTaskCompleted {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-itetasksms:descriptionTask center;
+    padding: 2px 8px;
+    gap: 10px;
+    flex-wrap: 'nowrap';
+    width: 50px;
+    height: 19px;
+
+    background: #333333;
+    color: #D9D9D9;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 999px;
+    margin-right: 2rem;
+}
 .tasks {
     box-sizing: border-box;
 

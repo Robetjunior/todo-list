@@ -9,10 +9,21 @@ export function Task({ idTask, comment, taskCompleted, onDeleteTask, onChangeTas
 
     return (
         <div className={styles.tasks}> 
-            <div className={styles.descriptionTask}>
-                <input type="checkbox" value="" checked={taskCompleted} onClick={() => onChangeTaskToCompleted(idTask)}></input>
-                <p>{comment}</p>
-            </div>
+            { !taskCompleted ?
+                <div className={styles.descriptionTask}>
+                    <input type="checkbox" value="" checked={taskCompleted} onClick={() => onChangeTaskToCompleted(idTask)}></input>
+                    <p>{comment}</p>
+                </div>
+                :
+                <div className={styles.descriptionTaskCompleted}>
+                    <input type="checkbox" value="" checked={taskCompleted} onClick={() => onChangeTaskToCompleted(idTask)}></input>
+                    <p>{comment}</p>
+                </div>
+            }
+            
+
+            
+
             <button onClick={handleDeleteTask} title='Deletar a tarefa'>
                 <Trash size={24}/>    
             </button> 

@@ -38,7 +38,12 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
-Timer Pomodoro tem o intuito de ser um projeto desenvolvido para gerir melhor o tempo e aumento de produtividade mais fáceis de serem implementados no dia a dia. Além de aprimorar as minhas habilidades com Typescript, ReactJS utilizando Contexto no React, Reducers e Actions.
+TODO List, o projeto desenvolvido com a função de uma aplicação de controle de tarefas no estilo **to-do list**, que contém as seguintes funcionalidades:
+
+- Adicionar uma nova tarefa
+- Marcar e desmarcar uma tarefa como concluída
+- Remover uma tarefa da listagem
+- Mostrar o progresso de conclusão das tarefas
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

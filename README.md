@@ -29,7 +29,7 @@
     <img src="./public/todoListEmpty.png" alt="Logo" width="600" height="400">
   </a>
   <a href="https://github.com/Robetjunior/todo-list">
-    <img src="./public/TodoListTasks.png alt="Logo" width="600" height="400">
+    <img src="./public/TodoListTasks.png" alt="Logo" width="600" height="400">
   </a>
 
 <h2 align="center">TODO LIST</h2>

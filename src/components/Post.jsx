@@ -105,7 +105,7 @@ export function Post() {
                         Concluídas
                     </p>
                     {tasks.length === 0 ?
-                        <p className={styles.counterTaskCompleted}>{tasks.length}</p>
+                        <p className={styles.counterTask}>{tasks.length}</p>
                     :
                         <p className={styles.counterTaskCompleted}>{taskCompletedCount} de {tasks.length}</p>
                     }   

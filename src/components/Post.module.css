@@ -257,10 +257,11 @@ background: blue;
     align-items: center;
     padding: 64px 24px;
     gap: 16px;
-
+    width: 65%;
+    margin-top: 1.5rem;
     /* Grey 400 */
 
-    border-top: 1px solid #333333;
+    border-top: 2px solid #333333;
     border-radius: 8px;
 
 }
